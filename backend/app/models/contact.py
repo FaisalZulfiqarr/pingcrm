@@ -14,6 +14,6 @@ class Contact(Base):
     country = Column(String)
     postal_code = Column(String)
     phone = Column(String)
-    company_id = Column(Integer, ForeignKey("organizations.id"))
+    organization_id = Column(Integer, ForeignKey("organizations.id"))
 
-    company = relationship("Organization", backref="contacts")
+    organization = relationship("Organization", backref="contacts")

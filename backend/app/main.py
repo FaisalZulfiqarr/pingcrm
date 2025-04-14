@@ -23,4 +23,4 @@ app.include_router(organization.router)
 
 @app.get('/')
 def hello():
-    return {"message": "Welcome to PingCRM"}
+    return {"message": "This is Faisal's PingCRM"}
