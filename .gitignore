@@ -1,0 +1,32 @@
+# ---- Python (backend) ----
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/**/*.pyo
+backend/**/*.pyd
+backend/**/*.pyc
+backend/**/*.sqlite3
+backend/**/*.log
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+backend/env/
+backend/ENV/
+
+# Environment Variables
+backend/.env
+
+# Python tools
+backend/.mypy_cache/
+
+# ---- Node (frontend) ----
+frontend/node_modules/
+frontend/.env
+frontend/build/
+
+# ---- Common files ----
+.DS_Store
+.vscode/
+.idea/
+*.log
+.history
