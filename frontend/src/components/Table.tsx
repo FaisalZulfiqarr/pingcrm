@@ -19,7 +19,7 @@ const Table = <T extends { id?: number }>({
       : col.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase());
 
   return (
-    <div className="overflow-x-auto shadow-sm border-b border-gray-200 rounded-lg">
+    <div className="overflow-x-auto shadow-sm border-b border-[#e5e7eb] rounded-lg">
       <table className="min-w-full table-auto">
         <thead className="bg-white">
           <tr>

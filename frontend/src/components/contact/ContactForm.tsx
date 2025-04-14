@@ -252,7 +252,7 @@ const ContactForm = ({ data, form, id }: Props) => {
         <div className="px-8 py-5 p-5 border-t flex justify-end bg-[#F9FAFB] rounded-b-md">
           <button
             type="submit"
-            className="px-6 py-2 bg-[#5661B3] text-white rounded-md hover:bg-orange-600 transition"
+            className="px-6 py-2  bg-[#ec4899] hover:bg-[#be185d] text-white rounded-md transition"
             onSubmit={handleAdd}
             disabled={isLoading}
           >
@@ -262,7 +262,7 @@ const ContactForm = ({ data, form, id }: Props) => {
       ) : (
         <div className="px-8 py-5 border-t flex justify-between bg-[#F9FAFB] rounded-b-md">
           <button
-            className="text-red-600 text-lg"
+            className="px-6 py-2 bg-[#ec4899] hover:bg-[#be185d] text-white rounded-md transition"
             onClick={() => openModal("delete")}
             disabled={isLoading}
           >
@@ -270,7 +270,7 @@ const ContactForm = ({ data, form, id }: Props) => {
           </button>
           <button
             type="submit"
-            className="px-6 py-2 bg-[#5661B3] text-white rounded-md hover:bg-orange-600 transition"
+            className="px-6 py-2 bg-[#ec4899] hover:bg-[#be185d] text-white rounded-md transition"
             onClick={() => openModal("edit")}
             disabled={isLoading}
           >

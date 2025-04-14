@@ -60,7 +60,7 @@ const Organizations = () => {
             onChange={(e) => setSearch(e.target.value)}
           />
           <Link
-            className="ml-4 bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition"
+            className="ml-4 bg-[#ec4899] text-white px-5 py-2 rounded hover:bg-[#be185d] transition"
             to={"/organizations/add"}
           >
             Add Organization

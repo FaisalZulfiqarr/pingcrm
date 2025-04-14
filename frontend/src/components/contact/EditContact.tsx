@@ -29,7 +29,7 @@ function EditContact() {
   return (
     <div>
       <h1 className="text-3xl font-semibold mb-6 text-gray-800">
-        <Link to="/contacts" className="text-[#7886D7]">
+        <Link to="/contacts" className="text-[#ec4899]  hover:text-[#be185d]">
           Contacts/{" "}
         </Link>
         {data?.name}

@@ -31,7 +31,10 @@ function EditOrganization() {
   return (
     <div>
       <h1 className="text-3xl font-semibold mb-6 text-gray-800">
-        <Link to="/organizations" className="text-[#7886D7]">
+        <Link
+          to="/organizations"
+          className="text-[#ec4899]  hover:text-[#be185d]"
+        >
           Organizations/{" "}
         </Link>
         {data?.name}
