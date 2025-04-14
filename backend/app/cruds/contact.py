@@ -22,10 +22,15 @@ def get_contacts(db: Session, name: str = None,):
         {
             "id": contact.id,
             "name": contact.name,
+            "email": contact.email,
             "phone": contact.phone,
             "city": contact.city,
             "organization": contact.organization.name, 
-            "organization_id": contact.organization.id
+            "organization_id": contact.organization.id,
+            "address": contact.address,
+            "country": contact.country,
+            "postal_code": contact.postal_code,
+            "province": contact.province
         }
         for contact in contacts
     ]

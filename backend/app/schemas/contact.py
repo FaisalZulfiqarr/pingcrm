@@ -4,6 +4,7 @@ class ContactBase(BaseModel):
     name: str
     phone: str
     city: str
+    email: str
     organization_id: int
     address: str
     city: str
@@ -27,6 +28,7 @@ class ContactWithOrganization(BaseModel):
     id: int
     name: str
     phone: str
+    email: str
     city: str
     organization: str
     organization_id: int
